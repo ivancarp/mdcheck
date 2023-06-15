@@ -27,3 +27,19 @@ Al ejecutar este comando, se creó una carpeta con el nombre del proyecto y dent
 - El archivo `settings.py` contenía la configuración de mi proyecto Django.
 - El archivo `urls.py` definía las URL de mi proyecto Django.
 - Los archivos `asgi.py` y `wsgi.py` eran puntos de entrada para servidores web compatibles con ASGI y WSGI, respectivamente.
+
+Ahora ejecutamos el servidor con
+```bash
+python3 manage.py runserver
+```
+Al ejecutar este comando en la línea de comandos, Django comenzó a escuchar en el puerto
+predeterminado (generalmente el puerto 8000) podemos saber que esta funcionando correctamente y
+que todo salio bien cuando logramos ver una pantalla que muestra el texto The install worked
+successfully congratulations junto con la imagen de un cohete.hay mas formas de levantar el servidor como El comando "python manage.py runserver 8080" el cual
+cambia el puerto en el que se ejecuta el servidor de desarrollo de Django. En lugar de utilizar el puerto
+predeterminado (8000), el servidor ahora escuchará en el puerto 8080. Esto es útil si el puerto 8000 ya
+está en uso o si deseas utilizar un puerto específico para tu aplicación Django.
+Por otro lado, el comando "python manage.py runserver 0.0.0.0:8000" cambia tanto la dirección IP
+como el puerto e
+--
+

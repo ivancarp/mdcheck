@@ -13,6 +13,7 @@ Las versiones LTS resultan especialmente relevantes para proyectos y organizacio
 ## Configuración del proyecto
 
 Primero, para crear el proyecto, se usa el siguiente comando:
+
 ##django-admin startproject <Nombre del proyecto>
 
 

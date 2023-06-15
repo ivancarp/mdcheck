@@ -32,14 +32,11 @@ Ahora ejecutamos el servidor con
 ```bash
 python3 manage.py runserver
 ```
-Al ejecutar este comando en la línea de comandos, Django comenzó a escuchar en el puerto
-predeterminado (generalmente el puerto 8000) podemos saber que esta funcionando correctamente y
-que todo salio bien cuando logramos ver una pantalla que muestra el texto The install worked
-successfully congratulations junto con la imagen de un cohete.hay mas formas de levantar el servidor como El comando "python manage.py runserver 8080" el cual
-cambia el puerto en el que se ejecuta el servidor de desarrollo de Django. En lugar de utilizar el puerto
-predeterminado (8000), el servidor ahora escuchará en el puerto 8080. Esto es útil si el puerto 8000 ya
-está en uso o si deseas utilizar un puerto específico para tu aplicación Django.
-Por otro lado, el comando "python manage.py runserver 0.0.0.0:8000" cambia tanto la dirección IP
-como el puerto e
+Al ejecutar este comando en la línea de comandos, Django comenzó a escuchar en el puerto predeterminado (generalmente el puerto 8000). Podemos saber que está funcionando correctamente y que todo salió bien cuando logramos ver una pantalla que muestra el texto "The install worked successfully congratulations" junto con la imagen de un cohete.
+
+Hay más formas de levantar el servidor, como el comando "python manage.py runserver 8080", que cambia el puerto en el que se ejecuta el servidor de desarrollo de Django. En lugar de utilizar el puerto predeterminado (8000), el servidor ahora escuchará en el puerto 8080. Esto es útil si el puerto 8000 ya está en uso o si deseas utilizar un puerto específico para tu aplicación Django.
+
+Por otro lado, el comando "python manage.py runserver 0.0.0.0:8000" cambia tanto la dirección IP como el puerto en los que se escucha el servidor de desarrollo. Al especificar "0.0.0.0" como dirección IP, el servidor estará disponible para conexiones desde cualquier dirección IP, lo que puede ser útil si deseas acceder al servidor desde diferentes dispositivos en tu red local.
+
 --
 

@@ -147,3 +147,19 @@ Ahora, necesitamos crear un usuario para acceder al panel de administración. Po
 ```bash
 python manage.py runserver
 ```
+Ahora, podemos verificar el acceso al panel de administración abriendo el navegador y dirigiéndonos a localhost/admin. Ingresamos las credenciales del usuario que creamos anteriormente. En el panel de administración, podremos ver los modelos básicos que Django proporciona, como los usuarios. Sin embargo, también podemos dar acceso a nuestros propios modelos desde el archivo admin.py que se encuentra en la carpeta de la aplicación.
+
+Para agregar nuestros modelos al panel de administración, agregamos el siguiente código al archivo admin.py:
+```python
+from django.contrib import admin
+from .models import Question
+from .models import Choice
+from .models import BuenasPracticas
+from .models import Categoria
+
+admin.site.register(Question)
+admin.site.register(Choice)
+admin.site.register(BuenasPracticas)
+admin.site.register(Categoria)
+
+```

@@ -254,3 +254,6 @@ python -m pip install django-debug-toolbar
 ```
 La barra de herramientas de depuración de Django Debug Toolbar se integra en la interfaz de usuario de tu aplicación web y ofrece información detallada y útil sobre el rendimiento, la ejecución de consultas de base de datos, los registros de errores y más. Te ayuda a comprender cómo funciona tu aplicación y a identificar posibles problemas y cuellos de botella.
 Te permite tener una visión detallada del rendimiento y el comportamiento de tu aplicación, lo que facilita la identificación y solución de problemas.
+
+---
+## Imagenes de todo el proceso: 

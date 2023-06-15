@@ -257,9 +257,6 @@ Te permite tener una visión detallada del rendimiento y el comportamiento de tu
 
 ---
 ## Imagenes de todo el proceso: 
-
-# Imágenes
-
 Aquí tienes algunas imágenes:
 
 ![Captura desde 2023-05-29 20-43-55.png](imag/Captura%20desde%202023-05-29%2020-43-55.png)

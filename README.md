@@ -14,7 +14,9 @@ Las versiones LTS resultan especialmente relevantes para proyectos y organizacio
 
 Primero, para crear el proyecto, se usa el siguiente comando:
 
-'django-admin startproject <Nombre del proyecto>'
+```bash
+django-admin startproject <Nombre del proyecto>
+```
 
 
 Al ejecutar este comando, se creó una carpeta con el nombre del proyecto y dentro de ella encontré una serie de archivos .py, que eran los siguientes:

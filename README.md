@@ -7,7 +7,7 @@ Basicamente, LTS hace referencia a Long-Term Support, lo cual significa que es u
 Las versiones LTS resultan especialmente relevantes para proyectos y organizaciones que buscan mantener estabilidad y continuidad a largo plazo, ya que garantizan la entrega de correcciones de errores, actualizaciones de seguridad y, en algunos casos, incluso nuevas funcionalidades durante un período extenso. Esto permite a los usuarios y desarrolladores confiar en la versión LTS, asegurando el funcionamiento de sus aplicaciones o sistemas sin necesidad de actualizar.
 
 **Versión usada: _4.2.1_**
-
+![Texto alternativo](python-django.png)
 ---
 
 ## Configuración del proyecto

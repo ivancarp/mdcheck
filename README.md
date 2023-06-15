@@ -165,3 +165,35 @@ admin.site.register(Categoria)
 ```
 En este ejemplo, hemos importado nuestros modelos (Question, Choice, BuenasPracticas y Categoria) y los hemos registrado en el panel de administración utilizando el método admin.site.register(). Esto nos permitirá gestionar y visualizar los registros de estos modelos desde el panel de administración de Django.
 Con esta configuración, podemos aprovechar al máximo el panel de administración de Django y tener un control completo sobre nuestros modelos y datos desde una interfaz fácil de usar.
+
+---
+# Forma correcta de usar las views y url
+
+Para crear las páginas que veremos en nuestra página web, utilizamos vistas en Django. Una vista es una función que recibe una solicitud HTTP y devuelve una respuesta HTTP. Por ejemplo, podemos tener una vista simple que muestra un texto:
+
+```python
+from django.http import HttpResponse
+
+def buenas_practicas(request):
+    return HttpResponse("Estás viendo las buenas prácticas.")
+```
+En este caso, la vista "buenas_practicas" devuelve una respuesta HTTP con el texto "Estás viendo las buenas prácticas". Sin embargo, para que podamos acceder a esta vista en nuestra página web, necesitamos configurar los enlaces utilizando el archivo urls.py.En Django, los enlaces se configuran mediante el uso de rutas (path) en el archivo urls.py. La estructura general de una ruta es la siguiente:
+
+```python
+path("ruta/", views.vista, name="nombre_de_ruta"),
+```
+
+la primera parte entre comillas es el vinculo con el que entraremos siguiendo la siguiente estructura localhost/"Nombreapp"/"lo que pusimos en las comillas del path" hay muchas formas en las que podemos vincular nuestras vistas ala app pero esa es la mas comun.
+hasta este momento solo hemos estado mostrando texto en pantalla pero claramente esto no es suficiente para la creacion de una pagina web por ello tambien podemos ya realizar cosas mas avanzadas como usar propio codigo html o mostrar informacion segun “x” o “y” condiciones.
+
+---
+#Pruebas automatizadas
+Django incluye un framework de pruebas integrado que facilita la creación y ejecución de pruebas automatizadas. Este framework se basa en el módulo de pruebas unitarias de Python, llamado unittest, y se extiende con funcionalidades específicas de Django para realizar pruebas de aplicaciones web.
+
+Las pruebas automatizadas en Django se definen en archivos de pruebas Python que se crean dentro de la estructura de la aplicación. Estos archivos de pruebas contienen clases de prueba que heredan de las clases proporcionadas por Django, como django.test.TestCase o django.test.SimpleTestCase. Dentro de estas clases de prueba, se definen métodos de prueba que verifican el estado. 
+ 
+![Ejemplo de resultados de un test: ](test.png)
+
+
+
+

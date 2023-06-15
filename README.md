@@ -212,3 +212,39 @@ podemos ver que es exactamente igual que cuando se aplican estilos en un proyect
 {% load static %}
 <link rel="stylesheet" href="{% static 'djangochiquito/style.css' %}">
 ```
+---
+#Mejorando la parte de administración
+
+
+Al igual que en el lado de la página web normal, también es importante facilitar las tareas de administración en el panel de administración de Django. Podemos personalizar la forma en que se crean nuevas selecciones o cómo se presenta la información en el panel de administración mediante el archivo admin.py, que se encuentra dentro de la carpeta de la aplicación.
+
+Una de las opciones que nos proporciona Django es la capacidad de mostrar la información en forma de lista o tabla, donde todo está mejor organizado y fácilmente accesible.
+La estructura que utilizamos en admin.py es similar a la siguiente:
+
+```python
+from django.contrib import admin
+from .models import Choice
+class ChoiceInline(admin.TabularInline):#Creamos una clase para el modelo choice y metemos el metodo
+    model = Choice #seleccion del modelo
+    extra = 3 #Poner cuantas opciones extra podemos agregar
+```
+Además de `admin.TabularInline`, existen otros métodos y clases que se pueden utilizar para personalizar aún más el panel de administración en Django:
+
+1. `GenericStackedInline` y `GenericTabularInline` permiten gestionar relaciones genéricas en el panel de administración.
+2. `NestedTabularInline` y `NestedStackedInline` permiten anidar líneas en línea dentro de otras líneas, útil para modelos relacionados en varios niveles de profundidad.
+3. `ModelAdmin.get_inline_instances()` personaliza las instancias de las clases en línea de forma dinámica, permitiendo incluir o excluir líneas en línea según condiciones específicas.
+4. `ModelAdmin.inlines` es una propiedad para especificar listas de clases en línea, lo que permite configuraciones diferentes para la administración de modelos relacionados en el panel de administración.
+
+Además de eso, lo que se hizo fue crear una plantilla personalizada para la página de índice del sitio administrativo, lo cual es bastante sencillo. Primero, crea un archivo llamado "index.html" dentro del directorio "templates/admin" en el directorio raíz de tu proyecto.
+
+En el archivo "index.html", puedes escribir tu propio código HTML para personalizar la apariencia de la página de índice. Por ejemplo, puedes agregar un encabezado, cambiar el diseño de las aplicaciones listadas o agregar enlaces adicionales.
+
+---
+#Agregar la barra de depuracion django
+
+Primero debemos de instalar la dependencia necesaria usando el siguiente codigo:
+```bash
+python -m pip install django-debug-toolbar
+```
+La barra de herramientas de depuración de Django Debug Toolbar se integra en la interfaz de usuario de tu aplicación web y ofrece información detallada y útil sobre el rendimiento, la ejecución de consultas de base de datos, los registros de errores y más. Te ayuda a comprender cómo funciona tu aplicación y a identificar posibles problemas y cuellos de botella.
+Te permite tener una visión detallada del rendimiento y el comportamiento de tu aplicación, lo que facilita la identificación y solución de problemas.

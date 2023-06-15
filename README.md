@@ -119,3 +119,19 @@ class Choice(models.Model):
 Estos modelos representan una estructura de base de datos para una encuesta, donde una pregunta puede tener varias opciones de respuesta. La relación entre Question y Choice se establece mediante una clave externa (ForeignKey) en el modelo Choice, que referencia al modelo Question. Esto permite acceder y manipular los datos de las preguntas y opciones de respuesta en la base de datos utilizando el ORM de Django.
 
 para aplicar los cambios debemos de entrar a settings de el proyecto y agregar en la parte de apps instaladas agregar ""Nombreapp".apps."Nombreapp"Config" ahora aplicamos los cambios:
+
+
+```bash
+python manage.py makemigrations "Nombreapp"
+```
+y veremos que en la app en la carpeta de migrations podemos observar que se agrego un archivo llamado 0001_initial.py el cual podemos interpretar mejor usado el comando:
+
+```bash
+python3 manage.py sqlmigrate djangochiquito 0001
+```
+Finalmente, utilizamos el comando "migrate" para aplicar las migraciones y crear las tablas y modelos en la base de datos:
+
+```bash
+python manage.py migrate
+```
+Con esto, los modelos se crearán en la base de datos y estarán listos para interactuar con los datos a través de Django.

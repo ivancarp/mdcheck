@@ -213,7 +213,7 @@ podemos ver que es exactamente igual que cuando se aplican estilos en un proyect
 <link rel="stylesheet" href="{% static 'djangochiquito/style.css' %}">
 ```
 ---
-#Mejorando la parte de administración
+# Mejorando la parte de administración
 
 
 Al igual que en el lado de la página web normal, también es importante facilitar las tareas de administración en el panel de administración de Django. Podemos personalizar la forma en que se crean nuevas selecciones o cómo se presenta la información en el panel de administración mediante el archivo admin.py, que se encuentra dentro de la carpeta de la aplicación.
@@ -239,8 +239,8 @@ Además de eso, lo que se hizo fue crear una plantilla personalizada para la pá
 
 En el archivo "index.html", puedes escribir tu propio código HTML para personalizar la apariencia de la página de índice. Por ejemplo, puedes agregar un encabezado, cambiar el diseño de las aplicaciones listadas o agregar enlaces adicionales.
 
----
-#Agregar la barra de depuracion django
+--- 
+# Agregar la barra de depuracion django
 
 Primero debemos de instalar la dependencia necesaria usando el siguiente codigo:
 ```bash

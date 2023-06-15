@@ -194,6 +194,18 @@ Las pruebas automatizadas en Django se definen en archivos de pruebas Python que
  
 ![Ejemplo de resultados de un test: ](test.png)
 
+---
+#Dándole estilo a los elementos de la pagina
+lo primero que hacemos es crear una carpeta llamada static dentro del directorio de nuestra app y dentro del mismo nombramos una carpeta con el mismo nombre de la app dentro de ella crearemos un archivo style.css con el que podamos modificar los estilos de la pagina web de modo que quede de la siguiente forma: ("DirectorioDeLaApp"/static/"NombreDeLaApp"/style.css)
+Dentro del mismo ponemos lo siguiente:
+```css
+li a {
+    color: green;
+}
+body {
+    background: white url("images/background.png") no-repeat;
+}
+```
 
 
 

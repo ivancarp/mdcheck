@@ -257,3 +257,23 @@ Te permite tener una visión detallada del rendimiento y el comportamiento de tu
 
 ---
 ## Imagenes de todo el proceso: 
+
+# Imágenes
+
+Aquí tienes algunas imágenes:
+
+![Captura desde 2023-05-29 20-43-55.png](imag/Captura%20desde%202023-05-29%2020-43-55.png)
+
+![Captura desde 2023-05-30 11-39-27.png](imag/Captura%20desde%202023-05-30%2011-39-27.png)
+
+![Captura desde 2023-05-30 23-32-15.png](imag/Captura%20desde%202023-05-30%2023-32-15.png)
+
+![Captura desde 2023-05-30 23-32-27.png](imag/Captura%20desde%202023-05-30%2023-32-27.png)
+
+![Captura desde 2023-05-30 23-47-16.png](imag/Captura%20desde%202023-05-30%2023-47-16.png)
+
+![Captura desde 2023-05-31 16-57-35.png](imag/Captura%20desde%202023-05-31%2016-57-35.png)
+
+![Captura desde 2023-05-31 17-16-51.png](imag/Captura%20desde%202023-05-31%2017-16-51.png)
+
+![Captura desde 2023-05-31 18-14-53.png](imag/Captura%20desde%202023-05-31%2018-14-53.png)

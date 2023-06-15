@@ -207,5 +207,8 @@ body {
 }
 ```
 
-
-
+podemos ver que es exactamente igual que cuando se aplican estilos en un proyecto html normal. una vez puesto eso debemos de referenciar nuestro css a la pagina con el siguiente código en el index o cualquier otro template:
+```HTML
+{% load static %}
+<link rel="stylesheet" href="{% static 'djangochiquito/style.css' %}">
+```

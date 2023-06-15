@@ -94,3 +94,25 @@ urlpatterns = [
 ```
 Este código configura las rutas del proyecto Django para redirigir las solicitudes a diferentes partes del proyecto. Las URL que comiencen con "Nombreapp/" serán manejadas por las rutas definidas en la aplicación "nombreapp", y las URL que comiencen con "admin/" serán manejadas por el panel de administración de Django.
 ***
+
+# Creación de modelos
+
+El comando `python manage.py migrate` en Django se utiliza para aplicar las migraciones pendientes en la base de datos. Las migraciones son cambios en la estructura de la base de datos, como la creación o modificación de tablas y campos. Al ejecutar este comando, Django sincroniza la base de datos con la definición de los modelos en el proyecto, creando tablas, realizando modificaciones y aplicando índices y restricciones. Es importante ejecutar `migrate` cada vez que se realicen cambios en los modelos para mantener la base de datos actualizada.
+
+Ahora lo que vamos a hacer es crear un modelo. Un modelo en Django es una representación de la estructura y comportamiento de una tabla en la base de datos, permitiendo interactuar con los datos de forma sencilla a través de la interfaz de Django ORM (Object-Relational Mapping).
+
+La forma en la que lo vamos a hacer es dentro de la carpeta de la app y en el archivo `models.py` con los siguientes códigos:
+
+```python
+from django.db import models
+
+class Question(models.Model):
+    question_text = models.CharField(max_length=200)
+    pub_date = models.DateTimeField("date published")
+
+class Choice(models.Model):
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    choice_text = models.CharField(max_length=200)
+    votes = models.IntegerField(default=0)
+
+```

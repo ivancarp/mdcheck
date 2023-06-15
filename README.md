@@ -135,3 +135,14 @@ Finalmente, utilizamos el comando "migrate" para aplicar las migraciones y crear
 python manage.py migrate
 ```
 Con esto, los modelos se crearán en la base de datos y estarán listos para interactuar con los datos a través de Django.
+---
+#Api Django
+Para interactuar con la terminal de Django, ejecutamos el siguiente código:
+```bash
+python manage.py shell
+```
+Esto nos brinda un entorno interactivo donde podemos experimentar con nuestra aplicación Django y realizar tareas de desarrollo en tiempo real sin necesidad de ejecutar un servidor web.En este entorno, podemos realizar entradas de información a los modelos y consultar los elementos que contienen.
+Ahora, necesitamos crear un usuario para acceder al panel de administración. Podemos hacerlo con el siguiente comando:
+```bash
+python manage.py runserver
+```

@@ -1013,7 +1013,7 @@ ExternalDNS needs some special permissions that aren't normally
 assigned to the role of the EKS cluster. These permissions can be
 added with this json:
 
-```bash
+```JSON
 {
  "Version": "2012-10-17",
  "Statement": [

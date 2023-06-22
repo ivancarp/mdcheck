@@ -7,17 +7,17 @@
 ## _Indice de secciones documentacion_  
 | Título de la sección | Enlace |
 |:-------------------:|:------:|
-| Sección 1           | [Prerequisites](#Prerequisites)|
-| Sección 2           | [Connecting](#Connecting) |
-| Sección 3           | [CreateRDS](#CreateRDS)|
-| Sección 4           | [EKSCluster](#EKSCluster)|
-| Sección 5           | [VPCPeering](#VPCPeering)|
-| Sección 6           | [S3Buckets](#S3Buckets)|
-| Sección 7           | [Deploy](#Deploy)|
-| Sección 8           | [Cronjobs](#Cronjobs)|
-| Sección 9           | [Traefik](#Traefik)|
-| Sección 10          | [Clean](#Clean)|
-| Sección 11          | [Troubleshooting](#Troubleshooting)|
+| *Sección 1*           | [Prerequisites](#Prerequisites)|
+| *Sección 2*          | [Connecting](#Connecting) |
+| *Sección 3*           | [CreateRDS](#CreateRDS)|
+| *Sección 4*           | [EKSCluster](#EKSCluster)|
+| *Sección 5*           | [VPCPeering](#VPCPeering)|
+| *Sección 6*           | [S3Buckets](#S3Buckets)|
+| *Sección 7*           | [Deploy](#Deploy)|
+| *Sección 8*           | [Cronjobs](#Cronjobs)|
+| *Sección 9*           | [Traefik](#Traefik)|
+| *Sección 10*          | [Clean](#Clean)|
+| *Sección 11*          | [Troubleshooting](#Troubleshooting)|
 
 
 ## Prerequisites

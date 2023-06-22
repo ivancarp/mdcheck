@@ -1,6 +1,6 @@
 <p align="left">
   
-  [AWS](https://img.shields.io/badge/AWS-Cloud_Computing-orange)
+  ![AWS](https://img.shields.io/badge/AWS-Cloud_Computing-orange)
   
 </p>
 # Amazon AWS

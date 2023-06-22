@@ -5,7 +5,7 @@
 
 ![Texto alternativo](amazon-s3.svg)
 
-  ![AWS](https://img.shields.io/badge/AWS-Cloud_Computing-orange)
+[![AWS](https://img.shields.io/badge/AWS-Cloud_Computing-orange)](https://aws.amazon.com/es/)
 ## _Indice de secciones documentacion_  
 | Título de la sección | Enlace |
 |:-------------------:|:------:|

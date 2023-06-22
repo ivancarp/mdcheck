@@ -1,6 +1,6 @@
 # Amazon AWS
 
-! Centro 
+!Centro 
 
 :-: 1.[Prerequisites](#Prerequisites):-:
 

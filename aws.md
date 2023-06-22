@@ -42,7 +42,7 @@ You can save the token in your env vars so that it is easily accesible.
 
 Then you have to install the AWS Command Line Interface `awscli`:
 
-[![AWS](https://img.shields.io/badge/AWS-Install_CLI-orange)](<https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html>)
+[![AWS](https://img.shields.io/badge/AWS-Install%20Cli-orange.svg?logo=amazon-aws)](<https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html>)
 
 After that run `aws configure` and input your credentials, that are in the csv you saved.
 The region we normally use is `us-east-2`, and the output format is `json`.

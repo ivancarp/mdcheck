@@ -99,7 +99,8 @@ Test that your installation was successful with the following command.
 `eksctl version`
 
 We will also need to install helm. A program to make packages of kubernetes
-clusters that are parameterizable.(<https://helm.sh/docs/intro/install/)>
+clusters that are parameterizable.[![Install Helm](https://img.shields.io/badge/Install%20Helm-blue.svg?logo=helm)](https://helm.sh/docs/intro/install/)
+
 
 Beware of the version you install. As of now we are using `helm2` but `helm3`
 is the latest release and cannot handle `helm2` repos.

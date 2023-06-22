@@ -805,7 +805,7 @@ encode them in this site: <https://www.base64encode.org/>
 Only after having the secret and the package should you install it by giving
 the address of the database, and the name of the secret:
 
-```Helm
+```helm
 helm upgrade cactus-site --install --force --recreate-pods cactus-0.1.0.tgz --set \
 rdsExternal=kubernetes-django-east2.c4csey4k0tc5.us-east-2.rds.amazonaws.com \
 --set dbSecret=postgres-credentials \

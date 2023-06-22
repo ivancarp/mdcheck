@@ -5,11 +5,9 @@
 
   ![AWS](https://img.shields.io/badge/AWS-Cloud_Computing-orange)
 
-<span style="color:red">
 
                                      ## _Indice de secciones documentacion_
   
-</span>
 
 | Título de la sección | Enlace |
 |:-------------------:|:------:|

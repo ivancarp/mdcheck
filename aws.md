@@ -51,7 +51,7 @@ And also install `jq` for handling jsons:
 
 `sudo apt install jq`
 
-Then you have to create a key pair for your IAM user: [![AWS](https://img.shields.io/badge/AWS-Create%Key%Pair-orange.svg?logo=amazon-aws)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+Then you have to create a key pair for your IAM user: [![AWS](https://img.shields.io/badge/AWS-Create%Key%20Pair-orange.svg?logo=amazon-aws)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
 Install docker securely <https://docs.docker.com/install/linux/docker-ce/ubuntu/>
 

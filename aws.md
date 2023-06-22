@@ -42,7 +42,7 @@ You can save the token in your env vars so that it is easily accesible.
 
 Then you have to install the AWS Command Line Interface `awscli`:
 
-[Here}(<https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html>)
+[![AWS](https://img.shields.io/badge/AWS-Install_CLI-orange)](<https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html>)
 
 After that run `aws configure` and input your credentials, that are in the csv you saved.
 The region we normally use is `us-east-2`, and the output format is `json`.
@@ -51,7 +51,7 @@ And also install `jq` for handling jsons:
 
 `sudo apt install jq`
 
-Then you have to create a key pair for your IAM user: <https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html>
+Then you have to create a key pair for your IAM user: [![AWS](https://img.shields.io/badge/AWS-Create_A_Key_Pair-orange)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
 Install docker securely <https://docs.docker.com/install/linux/docker-ce/ubuntu/>
 

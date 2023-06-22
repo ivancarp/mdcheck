@@ -1161,7 +1161,7 @@ Remember that kubernetes has a copy of the images used in the master node.
 If you don't want to be changing tags all the time, you can create a job
 with the key `imagePullPolicy: Always`. Just after the image key, like this:
 
-```bash
+```YAML
 containers:
   - name: django
     image: paquidios/inguz:cactus0.1

@@ -65,7 +65,8 @@ sudo usermod -aG docker $USER
 ```
 
 To use your own repository in dockerhub, you can use `docker login`. To use
-amazon ECR (Elastic container repository) follow [these](https://aws.amazon.com/blogs/compute/authenticating-amazon-ecr-repositories-for-docker-cli-with-credential-helper/) instructions.
+amazon ECR (Elastic container repository) follow [![these](https://img.shields.io/badge/Follow-Amazon%20ECR%20Authentication-FF9900.svg?logo=amazon%20aws&logoColor=white)](https://aws.amazon.com/blogs/compute/authenticating-amazon-ecr-repositories-for-docker-cli-with-credential-helper/)
+instructions.
 
 [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) To give
 order to the Kubernetes (k8) cluster from your pc.

@@ -30,7 +30,7 @@ First you'll have to create an Amazon AWS account in [![AWS](https://img.shields
 . Or a digitalocean account [![DigitalOcean](https://img.shields.io/badge/DigitalOcean-cloud%20provider%20-blue.svg?logo=digitalocean)](https://cloud.digitalocean.com/registrations/new)
 
 Afterwards, create an IAM user to have access to the Amazon CLI (Command Line interface)
-See here for doing that: [![AWS](https://img.shields.io/badge/AWS-Creating_an_IAM_User-orange)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+See here for doing that: [![AWS](https://img.shields.io/badge/AWS-Create%20IAM%20User-orange.svg?logo=amazon-aws)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
 
 Create a an acces key pair for that user and save the csv in a secure location.
 It can never be accessed again, you must create a new one.

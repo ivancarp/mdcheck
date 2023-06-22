@@ -716,7 +716,7 @@ If you have your containers in an Amazon ECR, follow this guide to create a
 kubernetes cronjob that updates the secrets with the self-renewed credentials
 that ECR uses:
 
-[![Configuring AWS ECR with Kubernetes Rancher 2.0](https://img.shields.io/badge/Configuring%20AWS%20ECR%20with%20Kubernetes%20Rancher%202.0-Medium-12100E.svg?logo=medium&logoColor=white)](https://medium.com/@damitj07/how-to-configure-and-use-aws-ecr-with-kubernetes-rancher2-0-6144c626d42c)
+[![Configuring AWS ECR with Kubernetes Rancher 2.0](https://img.shields.io/badge/Configuring%20AWS%20ECR%20with%20Kubernetes%20Rancher%202.0-Medium-12100E.svg?logo=medium&logoColor=red)](https://medium.com/@damitj07/how-to-configure-and-use-aws-ecr-with-kubernetes-rancher2-0-6144c626d42c)
 
 However you must create a service account role that has the neccesary permissions:
 

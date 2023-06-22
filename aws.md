@@ -35,7 +35,7 @@ See here for doing that: [![AWS](https://img.shields.io/badge/AWS-Creating_an_IA
 Create a an acces key pair for that user and save the csv in a secure location.
 It can never be accessed again, you must create a new one.
 
-Or get an OAuth token for DOcean [here](https://cloud.digitalocean.com/settings/applications).
+Or get an OAuth token for DOcean [![AWS](https://img.shields.io/badge/DigitalOcean-Auth_Token-blue)](https://cloud.digitalocean.com/settings/applications).
 You can save the token in your env vars so that it is easily accesible.
 
 `export TOKEN=your_token_here`

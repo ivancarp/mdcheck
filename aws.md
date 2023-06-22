@@ -5,7 +5,12 @@
 
   ![AWS](https://img.shields.io/badge/AWS-Cloud_Computing-orange)
 
-<span style="color:red"> ## Mi título </span>
+<span style="color:red">
+
+  ## Mi título
+  
+</span>
+
 | Título de la sección | Enlace |
 |:-------------------:|:------:|
 | Sección 1           | [Prerequisites](#Prerequisites)|

@@ -1,7 +1,7 @@
 # Amazon AWS
 
 | Título de la sección | Enlace |
-|---------------------|--------|
+|:-------------------:|:------:|
 | Sección 1           | [Prerequisites](#Prerequisites)|
 | Sección 2           | [Connecting](#Connecting) |
 | Sección 3           | [CreateRDS](#CreateRDS)|

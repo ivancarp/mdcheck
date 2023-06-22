@@ -980,7 +980,7 @@ First we save the domain name in a variable:
 
 There are two things you can do. Create a hosted zone registered in Route 53.
 That can be done with this
-[command](https://docs.aws.amazon.com/cli/latest/reference/route53domains/register-domain.html):
+[![AWS CLI - register-domain](https://img.shields.io/badge/AWS%20CLI-register--domain-FF9900.svg?logo=amazon%20aws&logoColor=white)](https://docs.aws.amazon.com/cli/latest/reference/route53domains/register-domain.html)
 
 ```bash
 aws route53domains register-domain \
@@ -1180,8 +1180,7 @@ containers:
 
 Images are automatically deleted by the garbage collector in the kubelets.
 Based on some criteria like, max. space used, etc. See:
-<https://kubernetes.io/docs/concepts/cluster-administration/kubelet-garbage-collection/>
-for more info.
+[![Kubelet Garbage Collection](https://img.shields.io/badge/Kubelet%20Garbage%20Collection-Kubernetes-326CE5.svg?logo=kubernetes&logoColor=white)](https://kubernetes.io/docs/concepts/cluster-administration/kubelet-garbage-collection/) for more info.
 
 If you exit your context because of using minikube. You can search for it using:
 `kubectl config get-contexts`
@@ -1196,7 +1195,7 @@ that the Kubernetes scheduler can distribute the pods for the service as they
 are created by the controller.
 
 For the difference between LoadBalancer, NodePort and ClusterIP se
-[here](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
+[![Kubernetes NodePort vs LoadBalancer vs Ingress](https://img.shields.io/badge/Kubernetes%20NodePort%20vs%20LoadBalancer%20vs%20Ingress-Medium-12100E.svg?logo=medium&logoColor=white)](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
 
 In AWS accounts that have never created a load balancer before, it’s possible
  that the service role for ELB might not exist yet.
@@ -1209,7 +1208,8 @@ Copy/Paste the following commands into your AWS CLI:
 
 It is expected for this to show an error, because it checks if the role exists.
 
-Esta cheatsheet ayuda mucho: <https://kubernetes.io/docs/reference/kubectl/cheatsheet/#kubectl-context-and-configuration>
+Esta cheatsheet ayuda mucho: [![kubectl Context and Configuration](https://img.shields.io/badge/kubectl%20Context%20and%20Configuration-Kubernetes-326CE5.svg?logo=kubernetes&logoColor=white)](https://kubernetes.io/docs/reference/kubectl/cheatsheet/#kubectl-context-and-configuration)
+ 
 Si el deployment no encuentra las imágenes no te jalan con esto,
 puede ser que no estés dentro del docker daemon. Las imágenes que creaste
 dentro del docker daemon de minikube se
@@ -1257,7 +1257,7 @@ Meterte a la base de datos postgresql del deployment de postgres
 
 If you dont have enoguh wokrer nodes follow this guide to migrate to a nodegroup
 with bigger instances:
-<https://docs.aws.amazon.com/eks/latest/userguide/migrate-stack.html>
+[![Migrate an Amazon EKS Stack](https://img.shields.io/badge/Migrate%20an%20Amazon%20EKS%20Stack-Amazon%20EKS-FF9900.svg?logo=amazon%20aws&logoColor=white)](https://docs.aws.amazon.com/eks/latest/userguide/migrate-stack.html)
 
  Or you can also adjust the desired instances in the auto
 scaling site in the aws console.

@@ -916,8 +916,9 @@ Additionally, we will be using ExternalDNS to create the AWS
 Rule Sets from just the services. This part is mainly
 based on this two user guides:
 
-* [Traefik & CRD & Let's Encrypt](https://docs.traefik.io/v2.0/user-guides/crd-acme/)
-* [ExternalDNS for Services on AWS](https://github.com/kubernetes-incubator/external-dns/blob/master/docs/tutorials/aws.md)
+* [![Traefik & CRD & Let's Encrypt](https://img.shields.io/badge/Traefik%20%26%20CRD%20%26%20Let's%20Encrypt-Documentation-FF6C37.svg?logo=traefik&logoColor=white)](https://docs.traefik.io/v2.0/user-guides/crd-acme/)
+* [![ExternalDNS for Services on AWS](https://img.shields.io/badge/ExternalDNS%20for%20Services%20on%20AWS-GitHub-181717.svg?logo=github)](https://github.com/kubernetes-incubator/external-dns/blob/master/docs/tutorials/aws.md)
+
 
 ### Overview
 

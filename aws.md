@@ -24,7 +24,9 @@
 
 ## Prerequisites
 
-First you'll have to create an Amazon AWS account in [here](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start). Or a digitalocean account [here](https://cloud.digitalocean.com/registrations/new)
+
+First you'll have to create an Amazon AWS account in [![AWS](https://img.shields.io/badge/Click_Here-red)](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start)
+. Or a digitalocean account [here](https://cloud.digitalocean.com/registrations/new)
 
 Afterwards, create an IAM user to have access to the Amazon CLI (Command Line interface)
 See here for doing that: <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html.>

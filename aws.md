@@ -10,7 +10,7 @@
 | Título de la sección | Enlace |
 |:-------------------:|:------:|
 | *Sección 1*           | [Prerequisites](#Prerequisites)|
-| *Sección 2*          | [Connecting](#Connecting) |
+| *Sección 2*           | [Connecting](#Connecting) |
 | *Sección 3*           | [CreateRDS](#CreateRDS)|
 | *Sección 4*           | [EKSCluster](#EKSCluster)|
 | *Sección 5*           | [VPCPeering](#VPCPeering)|

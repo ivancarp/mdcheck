@@ -1,8 +1,7 @@
 # Amazon AWS
 
-!Centro 
 
-:-: 1.[Prerequisites](#Prerequisites):-:
+1.[Prerequisites](#Prerequisites):-:
 
 2.[Connecting](#Connecting)
 

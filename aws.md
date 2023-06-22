@@ -182,7 +182,7 @@ eksctl create iamidentitymapping --cluster cactus-eksctl --arn $ARN --username $
 
 After that you'll have to tell kubectl to use the context of the cluster
 you want:
-<https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html>
+[![Create kubeconfig](https://img.shields.io/badge/Create%20kubeconfig-Amazon%20EKS-FF9900.svg?logo=amazon%20aws&logoColor=white)](https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html)
 
 `aws eks --region <region> update-kubeconfig --name <name of cluster>`
 

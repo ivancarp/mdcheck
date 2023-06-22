@@ -21,7 +21,7 @@
 | *Sección 10*          | [Clean](#Clean)|
 | *Sección 11*          | [Troubleshooting](#Troubleshooting)|
 
-[![AWS](https://img.shields.io/badge/AWS-Click_Here-red)]()
+<!-- -->[![AWS](https://img.shields.io/badge/AWS-Click_Here-red)]()
 
 ## Prerequisites
 

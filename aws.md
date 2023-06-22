@@ -1,10 +1,7 @@
 # Amazon AWS
 
 <p align="center">
-  
 1.[Prerequisites](#Prerequisites)
-
-</p>
 
 2.[Connecting](#Connecting)
 
@@ -25,6 +22,7 @@
 10.[Clean](#Clean)
 
 11.[Troubleshooting](#Troubleshooting)
+</p>
 
 
 ## Prerequisites

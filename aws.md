@@ -440,7 +440,7 @@ VPC peering Connection section**
 ## VPC peering Connection
 
 For the DB and EKS to comunicate you'll have to create VPC peering connection:
-<https://docs.aws.amazon.com/vpc/latest/peering/create-vpc-peering-connection.html>
+[![Create VPC Peering Connection](https://img.shields.io/badge/Create%20VPC%20Peering%20Connection-Amazon%20VPC-FF9900.svg?logo=amazon%20aws&logoColor=white)](https://docs.aws.amazon.com/vpc/latest/peering/create-vpc-peering-connection.html)
 
 TO do this we have to get some of the ids.
 

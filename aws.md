@@ -808,7 +808,8 @@ type: Opaque
 
 Secrets must no be saved in the git repo, so that they are not accessible. Where the pass and user
 are encoded in base64, but they are passed with a newline, so its best to
-encode them in this site: <https://www.base64encode.org/>
+encode them in this site: [![Base64 Encode](https://img.shields.io/badge/Base64%20Encode-Website-1F4361.svg)](https://www.base64encode.org/)
+
 
 Only after having the secret and the package should you install it by giving
 the address of the database, and the name of the secret:

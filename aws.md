@@ -420,7 +420,8 @@ After that you must delete the stack in the CloudFormation service in the AWS co
 
 Also a Virtual Private Cloud in AWS is generated. It is best to not use an
 existing vpc because this one is create with its own rules.
-If you want to do so See: <https://eksctl.io/usage/vpc-networking/>
+If you want to do so See: [![Eksctl VPC Networking](https://img.shields.io/badge/Eksctl%20VPC%20Networking-Documentation-36BEB0.svg?logo=kubernetes&logoColor=white)](https://eksctl.io/usage/vpc-networking/)
+
 
 To delete the cluster you'd have to use:
 

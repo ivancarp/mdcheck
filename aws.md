@@ -25,7 +25,7 @@
 
 ## Prerequisites
 
-First you'll have to create an Amazon AWS account in [![AWS](https://img.shields.io/badge/AWS-Click_Here-red)](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start/email)
+First you'll have to create an Amazon AWS account in [![AWS](https://img.shields.io/badge/AWS-Amazon%20Web%20Services-orange.svg?logo=amazon-aws)](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start/email)
 
 . Or a digitalocean account [![AWS](https://img.shields.io/badge/DigitalOcean-Click_Here-blue)](https://cloud.digitalocean.com/registrations/new)
 

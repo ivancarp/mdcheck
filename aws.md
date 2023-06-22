@@ -1,7 +1,8 @@
 # Amazon AWS
 
-
-1.[Prerequisites](#Prerequisites):-:
+<p align="center">
+1.[Prerequisites](#Prerequisites)
+</p>
 
 2.[Connecting](#Connecting)
 

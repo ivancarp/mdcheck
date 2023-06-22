@@ -969,7 +969,7 @@ We also added an annotation for ExternalDNS, that will make sense later.
 
 ### ExternalDNS
 
-Based on [here](https://github.com/kubernetes-sigs/external-dns/blob/master/docs/tutorials/aws.md)
+Based on [![ExternalDNS for Services on AWS](https://img.shields.io/badge/ExternalDNS%20for%20Services%20on%20AWS-GitHub-181717.svg?logo=github)](https://github.com/kubernetes-sigs/external-dns/blob/master/docs/tutorials/aws.md)
 Before actually activating the traefik routers (which gets activated
 once the controller detects an ingress) we must get or
 create a hosted zone and assign it a public hostname from Route 53 or

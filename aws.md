@@ -1,29 +1,18 @@
 # Amazon AWS
 
-<p align="center">
-  
-1.[Prerequisites](#Prerequisites)
-
-2.[Connecting](#Connecting)
-
-3.[CreateRDS](#CreateRDS)
-
-4.[EKSCluster](#EKSCluster)
-
-5.[VPCPeering](#VPCPeering)
-
-6.[S3Buckets](#S3Buckets)
-
-7.[Deploy](#Deploy)
-
-8.[Cronjobs](#Cronjobs)
-
-9.[Traefik](#Traefik)
-
-10.[Clean](#Clean)
-
-11.[Troubleshooting](#Troubleshooting)
-</p>
+| Título de la sección | Enlace |
+|---------------------|--------|
+| Sección 1           | [Prerequisites](#Prerequisites)|
+| Sección 2           | [Connecting](#Connecting) |
+| Sección 3           | [CreateRDS](#CreateRDS)|
+| Sección 4           | [EKSCluster](#EKSCluster)|
+| Sección 5           | [VPCPeering](#VPCPeering)|
+| Sección 6           | [S3Buckets](#S3Buckets)|
+| Sección 7           | [Deploy](#Deploy)|
+| Sección 8           | [Cronjobs](#Cronjobs)|
+| Sección 9           | [Traefik](#Traefik)|
+| Sección 10          | [Clean](#Clean)|
+| Sección 11          | [Troubleshooting](#Troubleshooting)|
 
 
 ## Prerequisites

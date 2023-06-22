@@ -27,7 +27,7 @@
 
 First you'll have to create an Amazon AWS account in [![AWS](https://img.shields.io/badge/AWS-Amazon%20Web%20Services-orange.svg?logo=amazon-aws)](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start/email)
 
-. Or a digitalocean account [![AWS](https://img.shields.io/badge/DigitalOcean-Click_Here-blue)](https://cloud.digitalocean.com/registrations/new)
+. Or a digitalocean account [![DigitalOcean](https://img.shields.io/badge/DigitalOcean-cloud%20provider%20-blue.svg?logo=digitalocean)](https://cloud.digitalocean.com/registrations/new)
 
 Afterwards, create an IAM user to have access to the Amazon CLI (Command Line interface)
 See here for doing that: [![AWS](https://img.shields.io/badge/AWS-Creating_an_IAM_User-orange)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
@@ -35,7 +35,7 @@ See here for doing that: [![AWS](https://img.shields.io/badge/AWS-Creating_an_IA
 Create a an acces key pair for that user and save the csv in a secure location.
 It can never be accessed again, you must create a new one.
 
-Or get an OAuth token for DOcean [![DigitalOcean](https://img.shields.io/badge/DigitalOcean-cloud%20provider%20-orange.svg?logo=digitalocean)](https://cloud.digitalocean.com/settings/applications).
+Or get an OAuth token for DOcean [![DigitalOcean](https://img.shields.io/badge/DigitalOcean-cloud%20provider%20-blue.svg?logo=digitalocean)](https://cloud.digitalocean.com/settings/applications).
 You can save the token in your env vars so that it is easily accesible.
 
 `export TOKEN=your_token_here`

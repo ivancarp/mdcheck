@@ -7,7 +7,7 @@
 
 <span style="color:red">
 
-  ## __Mi título__
+  ## _Mi título_
   
 </span>
 

@@ -3,7 +3,7 @@
 # Amazon AWS
 ---
 
-![Texto alternativo](amazon-s3.svg)
+![Texto alternativo](amazon-s3.png)
 
 [![AWS](https://img.shields.io/badge/AWS-Cloud_Computing-orange)](https://aws.amazon.com/es/)
 ## _Indice de secciones documentacion_  
